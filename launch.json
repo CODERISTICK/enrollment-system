@@ -3,11 +3,12 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Database",
+            "name": "Launch Java Program",
             "request": "launch",
-            "mainClass": "Database",
-            "classpath": [
-                "lib/mysql-connector-j-9.2.0.jar"
+            "mainClass": "DatabaseConnection",  // Replace with the correct class name
+            "classPaths": [
+                "C:\\Users\\Administrator\\Desktop\\shs_enrollment\\lib\\mysql-connector-j-9.2.0.jar", // Path to your MySQL Connector
+                "bin"
             ]
         }
     ]
